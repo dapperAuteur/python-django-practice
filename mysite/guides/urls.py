@@ -5,7 +5,7 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     # Contributors Page ex: /contribute/
-    path('contributor', views.detail, name='contributor'),
+    path('contributor', views.contributor, name='contributor'),
     # Funders Page ex: /fund/
-    path('funder', views.detail, name='funder'),
+    path('funder', views.funder, name='funder'),
 ]
