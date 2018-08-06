@@ -8,4 +8,6 @@ urlpatterns = [
     path('contributor', views.contributor, name='contributor'),
     # Funders Page ex: /fund/
     path('funder', views.funder, name='funder'),
+    # Time ex: /time/
+    path('timer', views.timer, name='timer'),
 ]
